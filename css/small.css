@@ -1,0 +1,39 @@
+/*
+*
+*
+*  SMALL SCREEN
+*
+*/
+body {
+  min-width: 325px;
+}
+
+.block {
+  height: 40px;
+  width: 100%;
+}
+
+div.header-container {
+  height: 80px;
+}
+/* FULL NAME */
+header.name {
+  margin: 1.4em 1.5em;
+  font-size: .8em;
+}
+/* POSITION TITLE */
+header.name p {
+  font-size: 1.2em;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  padding: 0 1em;
+}
+
+/* MAIN CONTENT CONTAINER */
+
+aside.main-img img{
+  width: 100%;
+}

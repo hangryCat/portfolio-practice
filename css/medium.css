@@ -1,0 +1,51 @@
+/*
+*
+*
+*  MEDIUM SCREEN
+*
+*/
+
+.block {
+  height: 50px;
+}
+
+div.header-container {
+  height: 100px;
+}
+
+/* FULL NAME */
+header.name {
+  padding: 1.45em 1.5em;
+  font-size: 1em;
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+  padding: .45em 1.5em;
+}
+
+/* MAIN CONTENT CONTAINER */
+main {
+  font-size: 1.2em;
+}
+
+aside.main-img img{
+  width: 100%;
+}
+
+/* FEATURED WORK */
+.featured-work {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+@media screen and (min-width: 550px) {
+  h2 {
+    width: 100%;
+  }
+
+  .featured-item {
+    width: 100%;
+  }
+}

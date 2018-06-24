@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+/* AESTHETIC BLOCK */
+.block {
+  width: 100%;
+  background-color: #2d3c49;
+}
+
+/* CONTAINS HEADER */
+div.header-container {
+  position: relative;
+  width: 100%;
+}
+
+/* FULL NAME */
+header.name {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+/* POSITION TITLE */
+header.name p {
+  text-align: right;
+}
+
+.logo img {
+  position: absolute;
+  left: 0;
+}
+
+div.logo {
+  display: inline-block;
+}
+
+/* MAIN CONTENT CONTAINER */
+main {
+  font-size: .9em;
+  width: 100%;
+  margin: 0;
+}
+
+header.introduction {
+  line-height: 1.35;
+  margin: 1em;
+}
+
+header.introduction {
+  padding: 1em;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  box-shadow: 1px 8px 18px -4px rgba(200,197,214,0.74);
+}
+
+h2 {
+  margin-bottom: .4em;
+  color: #7d97ad;
+}
+
+/* FEATURED WORK */
+.featured-work {
+  margin: 1em 2em;
+  padding: 0 1em;
+}
+
+.featured-item img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #2d3c49;
+}
+
+a:hover {
+  color: #02b3e4;
+}
